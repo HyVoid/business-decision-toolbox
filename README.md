@@ -25,6 +25,8 @@ Typical Symptoms
 Decision Support Tool
 ```
 
+![Business decision architecture](assets/architecture.png)
+
 This repository is a navigation hub, not a portfolio and not a code showcase.
 Start with the business pain, then move to the tool repository that supports the decision.
 
@@ -72,8 +74,24 @@ Repository
 
 The directory avoids technology-first labels. A tool is listed because it answers a business question, not because it uses a specific spreadsheet feature.
 
+![Navigation model](assets/navigation.png)
+
 ## Maintenance Source
 
 The canonical navigation source is [`catalog/tool-catalog.csv`](catalog/tool-catalog.csv).
 Update that file first when adding, renaming, or reclassifying a tool, then update the matching category page.
+
+The catalog supports cross-domain navigation:
+
+- `primary_domain` records the tool's main business category.
+- `navigation_domains` records every category page where the tool should appear, separated by semicolons.
+- A tool may appear in multiple navigation paths when it genuinely answers more than one business problem.
+
+## Methodology Context
+
+This toolbox answers: "Which decision system solves my business problem?"
+
+For the underlying methodology, positioning, and trust context, visit:
+
+[About Me](https://github.com/HyVoid/About-me)
 
