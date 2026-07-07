@@ -15,21 +15,6 @@ into structured business decisions.
 Find the business problem first.
 Pick the tool second.
 
-## Navigation Philosophy
-
-```text
-Business Problem
-        |
-Typical Symptoms
-        |
-Decision Support Tool
-```
-
-![Business decision architecture](assets/architecture.png)
-
-This repository is a navigation hub, not a portfolio and not a code showcase.
-Start with the business pain, then move to the tool repository that supports the decision.
-
 ## Find Your Business Problem
 
 | If you're asking... | Go here |
