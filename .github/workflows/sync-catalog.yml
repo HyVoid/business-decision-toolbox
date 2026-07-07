@@ -1,0 +1,65 @@
+name: Sync Tool Catalog
+
+# Runs automatically whenever catalog/tool-catalog.csv changes on main.
+# Can also be triggered manually from the Actions tab, optionally as a
+# dry run that previews the diff without committing anything.
+"on":
+  push:
+    branches: [main]
+    paths:
+      - "catalog/tool-catalog.csv"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only: run the sync but do not commit/push"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Serialize runs so two near-simultaneous CSV pushes can't race each other
+# on the git push step.
+concurrency:
+  group: sync-tool-catalog-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Sync catalog/*.md from tool-catalog.csv
+        run: python scripts/sync_catalog.py
+
+      - name: Show diff (dry run preview only)
+        if: github.event.inputs.dry_run == 'true'
+        run: |
+          echo "Dry run -- showing what WOULD change, nothing will be committed."
+          git diff -- catalog/ || true
+
+      - name: Commit and push changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if git diff --quiet -- catalog/; then
+            echo "No catalog changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/
+          git commit -m "Sync catalog pages from tool-catalog.csv [skip ci]"
+
+          # Defensive: pick up any commit that landed on main while this job
+          # was running, then push. With the concurrency group above this is
+          # a rare case, not the primary safeguard.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
