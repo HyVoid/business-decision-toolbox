@@ -57,10 +57,6 @@ Available Solutions
 Repository
 ```
 
-The directory avoids technology-first labels. A tool is listed because it answers a business question, not because it uses a specific spreadsheet feature.
-
-![Navigation model](assets/navigation.png)
-
 
 ## Methodology Context
 
