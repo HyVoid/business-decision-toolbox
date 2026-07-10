@@ -22,10 +22,9 @@
 
 | Decision System | Business Question | One-line Description | Repository |
 |---|---|---|---|
-| Excel Operations Control Dashboard | Which operational metrics require management attention? | Consolidates operational KPIs into a control dashboard. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
-| Project Time Cost Analysis Console | Which projects are drifting on time, cost, or margin? | Compares project performance against plan and highlights variance. | [Repository](https://github.com/HyVoid/Project-Time-Cost-Analysis-Console) |
-| Lawn Care Field Operations Console | Which field jobs need scheduling, routing, or service attention? | Organizes field service work into an operations control console. | [Repository](https://github.com/HyVoid/Lawn-Care-Field-Operations-Console) |
-| Restaurant Operation Audit | Which restaurant operating issues should be fixed first? | Converts restaurant audit observations into operational priorities. | [Repository](https://github.com/HyVoid/restaurant-operation-audit) |
-| Wedding Planner | Which wedding planning tasks, costs, and timelines need coordination? | Tracks planning decisions, vendors, and execution status. | [Repository](https://github.com/HyVoid/wedding-planner) |
-| Cin7 Business Performance Analyzer | What does Cin7 operating data say about business performance? | Turns Cin7 exports into operational performance analysis. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
-
+| Excel Operations Control Dashboard | Which operational metrics require management attention? | Operational KPIs exist but do not change decisions. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
+| Project Time Cost Analysis Console | Which projects are drifting on time cost or margin? | Projects lose margin through time and cost variance. | [Repository](https://github.com/HyVoid/Project-Time-Cost-Analysis-Console) |
+| Restaurant Operation Audit | Which restaurant operating issues should be fixed first? | Restaurant operating issues are observed but not prioritized. | [Repository](https://github.com/HyVoid/restaurant-operation-audit) |
+| Wedding Planner | Which wedding planning tasks costs and timelines need coordination? | Vendors tasks costs and timelines need coordination. | [Repository](https://github.com/HyVoid/wedding-planner) |
+| Cin7 Business Performance Analyzer | What does Cin7 operating data say about business performance? | Cin7 data exists but is not translated into performance decisions. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
+| Revenue Management Decision Engine | Has enough meaningful information changed to justify a pricing adjustment? | Pricing decisions react to every short-term fluctuation without governance guardrails. | [Repository](https://github.com/HyVoid/Revenue-Management-Decision-Engine) |

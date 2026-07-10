@@ -22,8 +22,8 @@
 
 | Decision System | Business Question | One-line Description | Repository |
 |---|---|---|---|
-| DIN 743 Shaft Calculations | Does the shaft design satisfy the relevant calculation logic? | Converts DIN 743 shaft calculations into a structured decision tool. | [Repository](https://github.com/HyVoid/DIN-743-Shaft-Calculations) |
-| Construction Estimating System | What will this construction scope cost under current assumptions? | Supports structured construction estimating decisions. | [Repository](https://github.com/HyVoid/Construction-Estimating-System) |
-| AIA Construction Estimating Cost Tracking Workbook | How do estimates and tracked costs compare through delivery? | Links construction estimating and cost tracking into a workbook workflow. | [Repository](https://github.com/HyVoid/AIA-Construction-Estimating-Cost-Tracking-Workbook) |
-| Universal 3D Cargo Loading Optimization Simulator | What loading arrangement best satisfies spatial constraints? | Supports technical packing and loading decisions through 3D simulation. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
-
+| Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to reduce wasted space and operational friction? | Cargo space is wasted or hard to plan. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
+| DIN 743 Shaft Calculations | Does the shaft design satisfy the relevant calculation logic? | Engineering standards are hard to apply consistently. | [Repository](https://github.com/HyVoid/DIN-743-Shaft-Calculations) |
+| Construction Estimating System | What will this construction scope cost under current assumptions? | Construction scope cost is hard to compare across assumptions. | [Repository](https://github.com/HyVoid/Construction-Estimating-System) |
+| AIA Construction Estimating Cost Tracking Workbook | How do estimates and tracked costs compare through delivery? | Estimates and tracked costs drift during delivery. | [Repository](https://github.com/HyVoid/AIA-Construction-Estimating-Cost-Tracking-Workbook) |
+| Construction Management Project Control Workbook | Is the project financial position accurate after incorporating approved changes actual costs and billing progress? | Budgets change orders billing and cash flow are managed in disconnected spreadsheets with conflicting assumptions. | [Repository](https://github.com/HyVoid/Construction-Management-Project-Control-Workbook) |

@@ -22,10 +22,10 @@
 
 | Decision System | Business Question | One-line Description | Repository |
 |---|---|---|---|
-| Marketing Attribution CRM Analytics Layer | Which channels and CRM stages create measurable business value? | Connects attribution and CRM logic into decision-ready reporting. | [Repository](https://github.com/HyVoid/Marketing-Attribution-CRM-Analytics-Layer) |
-| Marketing Audit Decision Console | What should we fix first in marketing performance? | Converts audit findings into prioritized growth and spend decisions. | [Repository](https://github.com/HyVoid/Marketing-Audit-Decision-Console) |
-| Marketing Budget Allocation Simulator | Where should the next dollar of marketing spend go? | Simulates budget shifts across channels and expected outcomes. | [Repository](https://github.com/HyVoid/Marketing-Budget-Allocation-Simulator) |
-| Paid Media Data Hub | How do we turn paid media exports into usable performance data? | Structures campaign data for downstream analysis and reporting. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
-| TikTok Agency Monthly Performance Intelligence Engine | Which monthly agency actions are justified by performance evidence? | Turns monthly TikTok performance into an agency decision review. | [Repository](https://github.com/HyVoid/TikTok-Agency-Monthly-Performance-Intelligence-Engine) |
-| Membership Engagement Analytics Workspace | Which members are engaged, slipping, or ready for intervention? | Analyzes member behavior to support retention and engagement decisions. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
-
+| Marketing Attribution CRM Analytics Layer | Which channels and CRM stages create measurable business value? | Marketing and CRM data do not explain business value. | [Repository](https://github.com/HyVoid/Marketing-Attribution-CRM-Analytics-Layer) |
+| Marketing Audit Decision Console | What should we fix first in marketing performance? | Marketing issues exist but fixes are not prioritized. | [Repository](https://github.com/HyVoid/Marketing-Audit-Decision-Console) |
+| Marketing Budget Allocation Simulator | Where should the next dollar of marketing spend go? | Marketing budget is allocated by habit instead of return. | [Repository](https://github.com/HyVoid/Marketing-Budget-Allocation-Simulator) |
+| Paid Media Data Hub | How do we turn paid media exports into usable performance data? | Paid media exports are not decision-ready. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
+| TikTok Agency Monthly Performance Intelligence Engine | Which monthly agency actions are justified by performance evidence? | Monthly agency reporting lacks clear action. | [Repository](https://github.com/HyVoid/TikTok-Agency-Monthly-Performance-Intelligence-Engine) |
+| Membership Engagement Analytics Workspace | Which members are engaged slipping or ready for intervention? | Member behavior changes before retention action happens. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
+| Amazon Business Review Engine | What actually changed in the business this period and which products or keywords drove the change? | Amazon sellers spend hours rebuilding reports instead of understanding business performance changes. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
