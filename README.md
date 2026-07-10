@@ -12,9 +12,6 @@ into structured business decisions.
 
 ---
 
-Find the business problem first.
-Pick the tool second.
-
 ## Find the Area That Best Matches Your Situation
 
 Every business faces different challenges, but most operational decisions fall into a handful of recurring areas.
