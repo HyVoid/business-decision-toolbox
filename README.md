@@ -49,15 +49,13 @@ The toolbox is organized around seven recurring categories of business decisions
 Each category follows the same decision path:
 
 ```text
-Business Problem
-        |
-Typical Symptoms
-        |
-Decision Question
-        |
-Available Solutions
-        |
-Repository
+Business Situation
+        ↓
+Business Decision Area
+        ↓
+Decision Questions
+        ↓
+Decision Support Tools
 ```
 
 
