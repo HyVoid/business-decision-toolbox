@@ -55,13 +55,11 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to maximize transportation efficiency? | Optimize cargo loading using spatial constraints to improve logistics planning and resource utilization. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
-| DIN 743 Shaft Calculations | Does this shaft design satisfy DIN 743 engineering requirements? | Apply standardized shaft calculation methods to validate mechanical designs consistently. | [Repository](https://github.com/HyVoid/DIN-743-Shaft-Calculations) |
-| Construction Estimating System | What will this construction scope cost under different project assumptions? | Compare construction cost scenarios using consistent estimating logic and engineering assumptions. | [Repository](https://github.com/HyVoid/Construction-Estimating-System) |
-| AIA Construction Estimating Cost Tracking Workbook | How do estimated costs compare with actual project delivery costs? | Connect construction estimating with ongoing cost tracking throughout project execution. | [Repository](https://github.com/HyVoid/AIA-Construction-Estimating-Cost-Tracking-Workbook) |
-| Construction Management Project Control Workbook | Is the project's technical and financial position still under control? | Integrate budgets, change orders, engineering progress, actual costs, billing, and cash flow into a unified project control framework. | [Repository](https://github.com/HyVoid/Construction-Management-Project-Control-Workbook) |
-
----
+| Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to reduce wasted space and operational friction? | Simulate 3D cargo loading configurations to maximize container capacity and shipping efficiency. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
+| DIN 743 Shaft Calculations | Does the shaft design satisfy the relevant calculation logic? | Apply DIN 743 shaft calculation standards to engineering design decisions. | [Repository](https://github.com/HyVoid/DIN-743-Shaft-Calculations) |
+| Construction Estimating System | What will this construction scope cost under current assumptions? | Standardize construction tender estimating and transform completed estimates into reusable cost libraries. | [Repository](https://github.com/HyVoid/Construction-Estimating-System) |
+| AIA Construction Estimating Cost Tracking Workbook | How do estimates and tracked costs compare through delivery? | Compare construction estimates against actual costs throughout project delivery using AIA-standard formats. | [Repository](https://github.com/HyVoid/AIA-Construction-Estimating-Cost-Tracking-Workbook) |
+| Construction Management Project Control Workbook | Is the project financial position accurate after incorporating approved changes actual costs and billing progress? | Integrate budgets change orders progress billing and cash flow into a single construction project control framework. | [Repository](https://github.com/HyVoid/Construction-Management-Project-Control-Workbook) |
 
 ## Related Decision Domains
 

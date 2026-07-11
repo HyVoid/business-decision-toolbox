@@ -55,14 +55,12 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Excel Operations Control Dashboard | Which operational metrics require management attention today? | Consolidate operational KPIs into a management-focused control dashboard that supports faster operational decisions. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
-| Project Time Cost Analysis Console | Which projects are drifting on schedule, cost, or profitability? | Monitor project execution by integrating schedule, cost, resource utilization, and financial performance. | [Repository](https://github.com/HyVoid/Project-Time-Cost-Analysis-Console) |
-| Restaurant Operation Audit | Which operational issues should be addressed first to improve restaurant performance? | Prioritize operational improvement opportunities using structured audit and assessment frameworks. | [Repository](https://github.com/HyVoid/restaurant-operation-audit) |
-| Wedding Planner | Which planning activities, budgets, timelines, and vendors require coordination? | Coordinate complex event execution by managing schedules, budgets, vendors, and operational dependencies. | [Repository](https://github.com/HyVoid/wedding-planner) |
-| Cin7 Business Performance Analyzer | What operational insights can be extracted from Cin7 business data? | Transform ERP operational data into management insights for inventory, sales, and operational performance. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
-| Revenue Management Decision Engine | Has enough meaningful information changed to justify a pricing decision? | Apply structured pricing governance based on operational signals and business performance indicators. | [Repository](https://github.com/HyVoid/Revenue-Management-Decision-Engine) |
-
----
+| Excel Operations Control Dashboard | Which operational metrics require management attention? | Monitor operational KPIs from a single source of truth without manual report consolidation. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
+| Project Time Cost Analysis Console | Which projects are drifting on time cost or margin? | Analyze project labor cost allocation and profitability across active project portfolios. | [Repository](https://github.com/HyVoid/Project-Time-Cost-Analysis-Console) |
+| Restaurant Operation Audit | Which restaurant operating issues should be fixed first? | Evaluate restaurant operational performance and prioritize corrective actions. | [Repository](https://github.com/HyVoid/restaurant-operation-audit) |
+| Wedding Planner | Which wedding planning tasks costs and timelines need coordination? | Coordinate vendor management task tracking and budget control across wedding planning workflows. | [Repository](https://github.com/HyVoid/wedding-planner) |
+| Cin7 Business Performance Analyzer | What does Cin7 operating data say about business performance? | Translate Cin7 inventory and operations data into actionable business performance insights. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
+| Revenue Management Decision Engine | Has enough meaningful information changed to justify a pricing adjustment? | Govern pricing recommendations through configurable guard rails that prevent unnecessary revenue volatility. | [Repository](https://github.com/HyVoid/Revenue-Management-Decision-Engine) |
 
 ## Related Decision Domains
 

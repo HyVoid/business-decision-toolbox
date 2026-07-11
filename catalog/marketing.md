@@ -55,15 +55,13 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Marketing Attribution CRM Analytics Layer | Which marketing channels and CRM stages create measurable business value? | Connect CRM, marketing, and sales data to evaluate marketing effectiveness across the customer journey. | [Repository](https://github.com/HyVoid/Marketing-Attribution-CRM-Analytics-Layer) |
-| Marketing Audit Decision Console | Which marketing problems should be addressed first? | Prioritize marketing improvement opportunities using structured performance assessment. | [Repository](https://github.com/HyVoid/Marketing-Audit-Decision-Console) |
-| Marketing Budget Allocation Simulator | Where should the next marketing dollar be invested? | Compare alternative budget allocation scenarios to maximize expected business return. | [Repository](https://github.com/HyVoid/Marketing-Budget-Allocation-Simulator) |
-| Paid Media Data Hub | How can paid media exports become decision-ready performance data? | Standardize advertising platform data for consistent reporting and analysis. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
-| TikTok Agency Monthly Performance Intelligence Engine | Which agency recommendations are supported by measurable performance evidence? | Transform monthly agency reporting into structured management decisions. | [Repository](https://github.com/HyVoid/TikTok-Agency-Monthly-Performance-Intelligence-Engine) |
-| Membership Engagement Analytics Workspace | Which members require retention, engagement, or intervention? | Identify engagement patterns and prioritize customer retention opportunities. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
-| Amazon Business Review Engine | What actually changed in business performance this period? | Identify the operational and marketing drivers behind changes in sales, profitability, and marketplace performance. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
-
----
+| Marketing Audit Decision Console | What should we fix first in marketing performance? | Audit marketing channel performance by reconciling ad spend data with actual revenue attribution. | [Repository](https://github.com/HyVoid/Marketing-Audit-Decision-Console) |
+| Marketing Budget Allocation Simulator | Where should the next dollar of marketing spend go? | Allocate marketing budget across channels using portfolio theory and return simulation. | [Repository](https://github.com/HyVoid/Marketing-Budget-Allocation-Simulator) |
+| Paid Media Data Hub | How do we turn paid media exports into usable performance data? | Transform paid media data exports into standardized decision-ready performance reports. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
+| TikTok Agency Monthly Performance Intelligence Engine | Which monthly agency actions are justified by performance evidence? | Standardize agency performance reporting and benchmark TikTok campaign results against strategic objectives. | [Repository](https://github.com/HyVoid/TikTok-Agency-Monthly-Performance-Intelligence-Engine) |
+| Membership Engagement Analytics Workspace | Which members are engaged slipping or ready for intervention? | Identify member churn risk and engagement trends across lifetime participation history. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
+| Lightweight CRM Shopify Marketing Attribution Excel Template | Which marketing spend actually produced profitable revenue? | Connect marketing acquisition channels to CRM sales progression and Shopify revenue through unified customer identity attribution. | [Repository](https://github.com/HyVoid/Lightweight-CRM-Shopify-Marketing-Attribution-Excel-Template) |
+| Amazon Business Review Engine | What actually changed in the business this period and which products or keywords drove the change? | Transform Amazon Seller Central SQP and Sellerboard exports into standardized executive business reviews. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
 
 ## Related Decision Domains
 

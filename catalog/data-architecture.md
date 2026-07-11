@@ -55,15 +55,13 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Marketing Attribution CRM Analytics Layer | Which marketing channels and CRM stages create measurable business value? | Integrate marketing, CRM, and sales data into a unified performance reporting model. | [Repository](https://github.com/HyVoid/Marketing-Attribution-CRM-Analytics-Layer) |
-| Paid Media Data Hub | How can paid media exports become decision-ready reporting data? | Standardize advertising platform data for reliable reporting and performance analysis. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
-| Membership Engagement Analytics Workspace | Which members require management attention based on engagement behavior? | Transform customer behavior into actionable engagement and retention insights. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
-| Excel Operations Control Dashboard | Which operational metrics require immediate management attention? | Convert operational KPIs into a management-focused operational reporting system. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
-| Cin7 Business Performance Analyzer | What operational insights can be extracted from Cin7 business data? | Transform ERP operational data into consistent business performance reporting. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
-| DTC Financial Decision Support System | Which operational commitments will create future cash flow pressure? | Integrate operational, financial, and sales data into forward-looking financial reporting. | [Repository](https://github.com/HyVoid/DTC-Financial-Decision-Support-System) |
-| Amazon Business Review Engine | What actually changed in business performance this reporting period? | Identify the operational drivers behind changes in sales, profitability, and marketplace performance. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
-
----
+| Paid Media Data Hub | How do we turn paid media exports into usable performance data? | Transform paid media data exports into standardized decision-ready performance reports. | [Repository](https://github.com/HyVoid/Paid-Media-Data-Hub) |
+| Membership Engagement Analytics Workspace | Which members are engaged slipping or ready for intervention? | Identify member churn risk and engagement trends across lifetime participation history. | [Repository](https://github.com/HyVoid/Membership-Engagement-Analytics-Workspace) |
+| Lightweight CRM Shopify Marketing Attribution Excel Template | Which marketing spend actually produced profitable revenue? | Connect marketing acquisition channels to CRM sales progression and Shopify revenue through unified customer identity attribution. | [Repository](https://github.com/HyVoid/Lightweight-CRM-Shopify-Marketing-Attribution-Excel-Template) |
+| Excel Operations Control Dashboard | Which operational metrics require management attention? | Monitor operational KPIs from a single source of truth without manual report consolidation. | [Repository](https://github.com/HyVoid/Excel-Operations-Control-Dashboard) |
+| Cin7 Business Performance Analyzer | What does Cin7 operating data say about business performance? | Translate Cin7 inventory and operations data into actionable business performance insights. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
+| DTC Financial Decision Support System | Which operational commitments will create a cash problem in the next twelve weeks? | Connect Shopify sales bank transactions advertising spend and inventory purchasing into a unified cash flow decision framework. | [Repository](https://github.com/HyVoid/DTC-Financial-Decision-Support-System) |
+| Amazon Business Review Engine | What actually changed in the business this period and which products or keywords drove the change? | Transform Amazon Seller Central SQP and Sellerboard exports into standardized executive business reviews. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
 
 ## Related Decision Domains
 

@@ -55,14 +55,12 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Multi Node Inventory Reconciliation | Why do different locations report different inventory positions? | Reconcile inventory across multiple operating locations to establish a trusted inventory view. | [Repository](https://github.com/HyVoid/MULTI-NODE-INVENTORY-RECONCILIATION) |
-| DTC Inventory Planning Control Tower | Which products require action before stockouts or excess inventory occur? | Monitor inventory health and prioritize replenishment decisions using operational risk indicators. | [Repository](https://github.com/HyVoid/DTC-Inventory-Planning-Control-Tower) |
-| Retail SKU Concentration Assortment Diagnostic Console | Which products create unnecessary inventory risk or weaken assortment performance? | Evaluate SKU concentration, assortment quality, and inventory allocation across product portfolios. | [Repository](https://github.com/HyVoid/Retail-SKU-Concentration-Assortment-Diagnostic-Console) |
-| Retail And Maquila Inventory Ledger | Where is inventory moving across retail and manufacturing operations? | Track inventory movement across retail, production, and maquila processes using a unified operational ledger. | [Repository](https://github.com/HyVoid/Retail-and-Maquila-Inventory-Ledger) |
-| Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to maximize transportation efficiency? | Optimize cargo loading to improve space utilization, logistics efficiency, and transportation planning. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
-| Cross Border DTC Inventory Governance Console | What is the true purchasing demand after accounting for pre-orders and expected returns? | Separate actual demand from temporary sales signals to improve purchasing and inventory planning decisions. | [Repository](https://github.com/HyVoid/Cross-Border-DTC-Inventory-Governance-Console) |
-
----
+| Multi Node Inventory Reconciliation | Why do locations disagree on inventory positions? | Reconcile inventory records across multiple operating nodes to identify discrepancies. | [Repository](https://github.com/HyVoid/MULTI-NODE-INVENTORY-RECONCILIATION) |
+| DTC Inventory Planning Control Tower | Which products need action before stockouts or cash traps appear? | Forecast inventory risk and replenishment needs across DTC product portfolios. | [Repository](https://github.com/HyVoid/DTC-Inventory-Planning-Control-Tower) |
+| Retail SKU Concentration Assortment Diagnostic Console | Which products dominate inventory risk or dilute assortment quality? | Identify SKU concentration risk and assortment efficiency across retail product catalogs. | [Repository](https://github.com/HyVoid/Retail-SKU-Concentration-Assortment-Diagnostic-Console) |
+| Retail And Maquila Inventory Ledger | Where is inventory moving across retail and maquila operations? | Track inventory movement processing loss and stock exposure across factories warehouses and stores. | [Repository](https://github.com/HyVoid/Retail-and-Maquila-Inventory-Ledger) |
+| Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to reduce wasted space and operational friction? | Simulate 3D cargo loading configurations to maximize container capacity and shipping efficiency. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
+| Cross Border DTC Inventory Governance Console | What is the real purchasing demand after removing pre-order liabilities and expected returns? | Reconstruct true demand signals by isolating pre-order obligations and return behavior from raw sales data. | [Repository](https://github.com/HyVoid/Cross-Border-DTC-Inventory-Governance-Console) |
 
 ## Related Decision Domains
 

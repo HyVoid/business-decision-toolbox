@@ -55,11 +55,9 @@ Decision-makers often ask questions such as:
 
 | Decision System | Helps You Decide | Primary Capability | Repository |
 |---|---|---|---|
-| Aviation Compliance Research Repository | Which aviation regulations or operational requirements apply in this situation? | Transform aviation regulations into structured operational decision guidance and compliance references. | [Repository](https://github.com/HyVoid/Aviation-Compliance-Research-Repository) |
-| Reckon IIF Converter | How can accounting data migration be completed with lower operational risk? | Standardize accounting data conversion and validation to reduce import and posting errors. | [Repository](https://github.com/HyVoid/Reckon-IIF-Converter) |
-| Lightweight CRM Shopify Marketing Attribution Excel Template | Can this month's multi-country VAT filing be completed with confidence? | Consolidate cross-border VAT calculations and reporting into a consistent compliance workflow. | [Repository](https://github.com/HyVoid/Lightweight-CRM-Shopify-Marketing-Attribution-Excel-Template) |
-
----
+| Aviation Compliance Research Repository | Which aviation compliance rule or operating constraint applies? | Interpret aviation compliance requirements into operational flight duty constraints. | [Repository](https://github.com/HyVoid/Aviation-Compliance-Research-Repository) |
+| Reckon IIF Converter | How do we reduce accounting import and migration risk? | Convert CRM invoice exports into validated import-ready accounting file formats. | [Repository](https://github.com/HyVoid/Reckon-IIF-Converter) |
+| Shopify Etsy Monthly VAT Compliance Dashboard Excel | Can this month's multi-country VAT filing be submitted with confidence? | Calculate and validate monthly multi-country VAT liabilities across Shopify and Etsy transaction data. | [Repository](https://github.com/HyVoid/Shopify-Etsy-Monthly-VAT-Compliance-Dashboard-Excel-) |
 
 ## Related Decision Domains
 
