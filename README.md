@@ -67,7 +67,7 @@ For the underlying methodology, positioning, and trust context, visit:
 
 [About Me](https://github.com/HyVoid/About-me)
 
-## Priacy Policy
+## Privacy Policy
 
 ALL product is downloadable to your localstorage for personal use, do NOT reserve any user data
 
