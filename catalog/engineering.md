@@ -60,6 +60,7 @@ Decision-makers often ask questions such as:
 | Construction Estimating System | What will this construction scope cost under current assumptions? | Standardize construction tender estimating and transform completed estimates into reusable cost libraries. | [Repository](https://github.com/HyVoid/Construction-Estimating-System) |
 | AIA Construction Estimating Cost Tracking Workbook | How do estimates and tracked costs compare through delivery? | Compare construction estimates against actual costs throughout project delivery using AIA-standard formats. | [Repository](https://github.com/HyVoid/AIA-Construction-Estimating-Cost-Tracking-Workbook) |
 | Construction Management Project Control Workbook | Is the project financial position accurate after incorporating approved changes actual costs and billing progress? | Integrate budgets change orders progress billing and cash flow into a single construction project control framework. | [Repository](https://github.com/HyVoid/Construction-Management-Project-Control-Workbook) |
+| Industrial Energy Cost Total Cost Of Ownership TCO Decision Support Toolkit | Which energy option delivers the lowest total cost of ownership for this specific project under its actual operating conditions? | Compare industrial energy sources on a true useful-energy basis by normalizing fuel costs equipment efficiency infrastructure investment and lifecycle ownership costs. | [Repository](https://github.com/HyVoid/Industrial-Energy-Cost-Total-Cost-of-Ownership-TCO-Decision-Support-Toolkit) |
 
 ## Related Decision Domains
 

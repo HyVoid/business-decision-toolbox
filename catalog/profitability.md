@@ -68,6 +68,7 @@ Decision-makers often ask questions such as:
 | Revenue Management Decision Engine | Has enough meaningful information changed to justify a pricing adjustment? | Govern pricing recommendations through configurable guard rails that prevent unnecessary revenue volatility. | [Repository](https://github.com/HyVoid/Revenue-Management-Decision-Engine) |
 | Amazon Business Review Engine | What actually changed in the business this period and which products or keywords drove the change? | Transform Amazon Seller Central SQP and Sellerboard exports into standardized executive business reviews. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
 | Food Manufacturing Cost Unit Economics Toolkit | Which products are actually profitable after all manufacturing costs are allocated and which are destroying margin? | Allocate factory labor utilities overhead and material costs to every SKU for true unit manufacturing economics. | [Repository](https://github.com/HyVoid/Food-Manufacturing-Cost-Unit-Economics-Toolkit) |
+| E Commerce Profit Intelligence Reconciliation Excel Toolkit | Which orders are actually profitable after all hidden costs and where is money leaking across channels and currencies? | Reconstruct true order-level profitability by reconciling sales payouts shipping costs payment fees and marketplace commissions across multi-channel e-commerce operations. | [Repository](https://github.com/HyVoid/E-commerce-Profit-Intelligence-Reconciliation-Excel-Toolkit) |
 
 ## Related Decision Domains
 
