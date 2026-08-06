@@ -71,3 +71,7 @@ For the underlying methodology, positioning, and trust context, visit:
 
 ALL product is downloadable to your localstorage for personal use, do NOT reserve any user data
 
+All web-based products do not store any data on the server; all data is saved in the user's browser's localStorage.
+
+The data already contained in all products is sample data used to demonstrate product operation and does not involve any real commercial privacy.
+
