@@ -61,6 +61,8 @@ Decision-makers often ask questions such as:
 | Retail And Maquila Inventory Ledger | Where is inventory moving across retail and maquila operations? | Track inventory movement processing loss and stock exposure across factories warehouses and stores. | [Repository](https://github.com/HyVoid/Retail-and-Maquila-Inventory-Ledger) |
 | Universal 3D Cargo Loading Optimization Simulator | How should cargo be loaded to reduce wasted space and operational friction? | Simulate 3D cargo loading configurations to maximize container capacity and shipping efficiency. | [Repository](https://github.com/HyVoid/Universal-3D-Cargo-Loading-Optimization-Simulator) |
 | Cross Border DTC Inventory Governance Console | What is the real purchasing demand after removing pre-order liabilities and expected returns? | Reconstruct true demand signals by isolating pre-order obligations and return behavior from raw sales data. | [Repository](https://github.com/HyVoid/Cross-Border-DTC-Inventory-Governance-Console) |
+| Flora Pastry Coffee Shop Operating Control System | Is the shop genuinely profitable after all ingredient, labor, and operating costs? | Connect recipe costing, sales, inventory consumption, and operating expenses into a unified profitability and cash flow framework. | [Repository](https://github.com/HyVoid/Flora-Pastry-Coffee-Shop-Operating-Control-System) |
+| Warehouse Billing Control System Excel Toolkit | Are warehouse billing charges accurate and traceable to underlying operational records? | Calculate warehouse storage, handling, and transport charges into auditable customer billing statements. | [Repository](https://github.com/HyVoid/Warehouse-Billing-Control-System-Excel-Toolkit) |
 
 ## Related Decision Domains
 
