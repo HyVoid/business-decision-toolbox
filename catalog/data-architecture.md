@@ -62,6 +62,7 @@ Decision-makers often ask questions such as:
 | Cin7 Business Performance Analyzer | What does Cin7 operating data say about business performance? | Translate Cin7 inventory and operations data into actionable business performance insights. | [Repository](https://github.com/HyVoid/Cin7-Business-Performance-Analyzer) |
 | DTC Financial Control Cash Flow Toolkit | Which operational commitments will create a cash problem in the next twelve weeks? | Connect Shopify sales bank transactions advertising spend and inventory purchasing into a unified cash flow decision framework. | [Repository](https://github.com/HyVoid/DTC-Financial-Control-Cash-Flow-Toolkit) |
 | Amazon Business Review Engine | What actually changed in the business this period and which products or keywords drove the change? | Transform Amazon Seller Central SQP and Sellerboard exports into standardized executive business reviews. | [Repository](https://github.com/HyVoid/Amazon-Business-Review-Engine) |
+| Booking Level Profitability Job Costing Engine For Freight Forwarders | Which freight bookings are actually profitable after all costs, fees, and currency conversion? | Measure booking-level freight profitability by reconciling revenue, COGS, bank fees, and container costs across mixed-currency transactions. | [Repository](https://github.com/HyVoid/Booking-Level-Profitability-Job-Costing-Engine-for-Freight-Forwarders) |
 
 ## Related Decision Domains
 

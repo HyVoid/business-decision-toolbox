@@ -69,6 +69,7 @@ Decision-makers often ask questions such as:
 | Contractor Operations Profitability Management System | Which contractor projects and customers are actually profitable after all job costs? | Connect lead estimation, job execution, and actual cost tracking into a unified contractor profitability framework. | [Repository](https://github.com/HyVoid/Contractor-Operations-Profitability-Management-System) |
 | Flora Pastry Coffee Shop Operating Control System | Is the shop genuinely profitable after all ingredient, labor, and operating costs? | Connect recipe costing, sales, inventory consumption, and operating expenses into a unified profitability and cash flow framework. | [Repository](https://github.com/HyVoid/Flora-Pastry-Coffee-Shop-Operating-Control-System) |
 | Warehouse Billing Control System Excel Toolkit | Are warehouse billing charges accurate and traceable to underlying operational records? | Calculate warehouse storage, handling, and transport charges into auditable customer billing statements. | [Repository](https://github.com/HyVoid/Warehouse-Billing-Control-System-Excel-Toolkit) |
+| Cross Entity Logistics Console | Which containers and customers are actually profitable across customs and fleet operations? | Consolidate customs clearance and fleet execution data into a single container-level profitability view. | [Repository](https://github.com/HyVoid/cross-entity-logistics-console) |
 
 ## Related Decision Domains
 
