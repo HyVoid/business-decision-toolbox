@@ -83,14 +83,25 @@ CSV_COLUMNS = [
 
 API_BASE = "https://api.github.com"
 
+def _env_or(name: str, default: str) -> str:
+    """Environment variable with a fallback that also covers EMPTY values.
+
+    GitHub Actions renders undefined `vars.*`/`secrets.*` as empty strings in
+    the env block, so os.environ.get(name, default) would return "" instead
+    of the default. Strip and treat blank as unset.
+    """
+    value = os.environ.get(name, "").strip()
+    return value or default
+
+
 # LLM inference for new-repo classification. Any OpenAI-compatible
 # /chat/completions endpoint works (DeepSeek, OpenRouter, Groq, Google AI
 # Studio, Azure Foundry, ...). GitHub Models was retired on 2026-07-30 and
 # can no longer be used here. Default: DeepSeek (cheap, JSON mode supported).
 # Configure via environment variables in the workflow; see
 # .github/workflows/update-catalog-daily.yml.
-LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com/v1").rstrip("/")
-LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-chat")
+LLM_BASE_URL = _env_or("LLM_BASE_URL", "https://api.deepseek.com/v1").rstrip("/")
+LLM_MODEL = _env_or("LLM_MODEL", "deepseek-chat")
 LLM_CHAT_URL = f"{LLM_BASE_URL}/chat/completions"
 
 # Timeout / retry tuning for all HTTP calls.
