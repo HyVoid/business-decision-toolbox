@@ -1,0 +1,95 @@
+name: Update Tool Catalog (Daily Scan)
+
+# Independent upstream workflow: scans HyVoid's public repos daily, updates
+# catalog/tool-catalog.csv (archiving a dated snapshot to catalog/history/),
+# and generates semantic catalog fields for brand-new repos via an
+# OpenAI-compatible LLM endpoint.
+#
+# This workflow is fully additive -- it does not modify or depend on the
+# existing .github/workflows/sync-catalog.yml or scripts/sync_catalog.py in
+# any way. The two compose naturally: when this workflow commits a new CSV,
+# the existing "Sync Tool Catalog" workflow (triggered on catalog/tool-catalog.csv
+# changes) regenerates the catalog/*.md pages, completing the chain:
+#
+#   daily scan -> new CSV -> (auto-triggered) md page regeneration
+#
+# LLM configuration (needed only on days when NEW repos appear; rename/delete
+# detection and no-change days run with the built-in GITHUB_TOKEN alone):
+#   GitHub Models was retired on 2026-07-30, so inference uses an
+#   OpenAI-compatible provider instead (default: DeepSeek). One-time setup:
+#     1. Create an API key at https://platform.deepseek.com (a few dollars of
+#        credit lasts a very long time at ~2-3K tokens per new repo).
+#     2. Add it as the repository secret LLM_API_KEY
+#        (Settings -> Secrets and variables -> Actions -> New repository secret).
+#     3. Optional overrides via repository variables LLM_BASE_URL / LLM_MODEL
+#        let you switch to any OpenAI-compatible provider (OpenRouter, Groq,
+#        Google AI Studio, ...) without touching this workflow.
+#
+# Runs daily at 02:10 UTC (10:10 Beijing time). GitHub only disables a
+# scheduled workflow after 60 days of repo inactivity, which does not apply
+# to an actively maintained catalog. Can also be triggered manually, with an
+# optional dry run that previews changes without committing.
+"on":
+  schedule:
+    - cron: "10 2 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only: scan and classify but do not commit/push"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write  # commit the updated CSV + history snapshot
+
+# Serialize with itself so two overlapping runs (e.g. scheduled run racing a
+# manual dispatch) cannot push conflicting commits. Deliberately a DIFFERENT
+# concurrency group from sync-catalog.yml's group, so this workflow never
+# cancels or blocks the existing one.
+concurrency:
+  group: update-tool-catalog
+  cancel-in-progress: false
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Scan repos and update tool-catalog.csv
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python scripts/update_catalog.py ${{ (github.event.inputs.dry_run == 'true' && '--dry-run') || '' }}
+
+      - name: Show diff (dry run preview only)
+        if: github.event.inputs.dry_run == 'true'
+        run: |
+          echo "Dry run -- showing what WOULD change, nothing will be committed."
+          git diff -- catalog/ || true
+
+      - name: Commit and push changes
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if git diff --quiet -- catalog/; then
+            echo "No catalog changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/
+          git commit -m "Update tool-catalog.csv from daily repo scan [skip ci]"
+
+          # Defensive: pick up any commit that landed on main while this job
+          # was running (e.g. the sync-catalog workflow), then push.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
