@@ -25,13 +25,16 @@ name: Update Tool Catalog (Daily Scan)
 #        let you switch to any OpenAI-compatible provider (OpenRouter, Groq,
 #        Google AI Studio, ...) without touching this workflow.
 #
-# Runs daily at 02:10 UTC (10:10 Beijing time). GitHub only disables a
-# scheduled workflow after 60 days of repo inactivity, which does not apply
-# to an actively maintained catalog. Can also be triggered manually, with an
-# optional dry run that previews changes without committing.
+# Runs daily at 03:17 UTC (11:17 Beijing time). The off-round minute and
+# low-traffic hour are deliberate: GitHub's scheduler is best-effort and
+# heavily queues round-minute crons during peak load (observed 6h+ delays at
+# 02:10, with the run eventually landing or being skipped entirely). Only
+# disables a scheduled workflow after 60 days of repo inactivity, which does
+# not apply to an actively maintained catalog. Can also be triggered manually,
+# with an optional dry run that previews changes without committing.
 "on":
   schedule:
-    - cron: "10 2 * * *"
+    - cron: "17 3 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
