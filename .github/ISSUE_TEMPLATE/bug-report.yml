@@ -1,0 +1,102 @@
+name: Bug report
+description: Report a reproducible catalog, navigation, or listing defect in Business Decision Toolbox. For a calculation
+  issue in a listed product, identify that product's repository.
+title: '[Bug] Business Decision Toolbox (Catalog & Directory)'
+body:
+- type: markdown
+  attributes:
+    value: Please report one issue per submission. Do not attach or paste production files. A small synthetic example is usually
+      enough to reproduce a calculation or workflow problem.
+- type: dropdown
+  id: problem_area
+  attributes:
+    label: Catalog area / affected entry
+    description: Choose the closest affected catalog or directory area.
+    options:
+    - Broken catalog link or navigation
+    - Tool listed under the wrong decision category
+    - Missing or unclear business-problem description
+    - Missing tool, duplicate entry, or outdated listing
+    - Catalog page structure or readability
+    - License, methodology, or general repository information
+    - A specific listed tool (identify its repository)
+    - Other
+  validations:
+    required: true
+- type: dropdown
+  id: environment
+  attributes:
+    label: Where did the issue occur?
+    description: Choose the closest environment.
+    options:
+    - Browser-based tool / web demo
+    - Microsoft Excel for Microsoft 365
+    - Microsoft Excel 2021
+    - Google Sheets preview
+    - Other / not sure
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Version / page / workbook context
+    description: Provide the workbook version, release / commit, browser, Excel build, or exact catalog page / tool link where
+      relevant.
+    placeholder: e.g. workbook v1.2; Excel 365 Version ...
+  validations:
+    required: false
+- type: input
+  id: summary
+  attributes:
+    label: Issue summary
+    description: A concise title describing what is wrong.
+    placeholder: e.g. A valid input is not included in the summary
+  validations:
+    required: true
+- type: textarea
+  id: expected_actual
+  attributes:
+    label: Expected result and actual result
+    description: Explain what you expected to happen and what happened instead. Include the affected output / field / cell
+      if known.
+    placeholder: 'Expected: ...
+
+      Actual: ...'
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    description: List the smallest sequence of actions that reproduces the issue. Include relevant settings or assumptions.
+    placeholder: '1. Open ...
+
+      2. Enter synthetic values ...
+
+      3. Review ...'
+  validations:
+    required: true
+- type: textarea
+  id: safe_example
+  attributes:
+    label: Synthetic example (no real business data)
+    description: A public catalog page or tool link, the expected category / destination, and the actual result. Do not paste
+      internal strategy documents or business datasets. Do not include personal, confidential, or production data. Do not
+      attach the original workbook or exports.
+    placeholder: 'Input values: ...
+
+      Expected output: ...
+
+      Actual output: ...'
+  validations:
+    required: true
+- type: checkboxes
+  id: privacy_check
+  attributes:
+    label: Privacy confirmation
+    options:
+    - label: I have removed personal, confidential, and production data and have used only synthetic or adequately de-identified
+        information.
+      required: true
+  validations:
+    required: true

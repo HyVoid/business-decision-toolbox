@@ -67,6 +67,28 @@ For the underlying methodology, positioning, and trust context, visit:
 
 [About Me](https://github.com/HyVoid/About-me)
 
+## Questions, Feedback & Product Updates
+
+This repository is part of the Theseus Workshop collection of lightweight, reusable business decision-support tools. Feedback is welcome, including questions about how to use the workbook, workflow gaps, reproducible calculation problems, and ideas for improving the tool.
+
+- **Questions and usage help:** [Open a discussion](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/questions)
+- **Ideas and workflow suggestions:** [Share an idea](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/ideas)
+- **Product updates:** [Follow product updates](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/product-updates)
+- **Technical bugs:** Use the **Report a bug** issue form in this repository. Please include the workbook / tool version, the relevant workflow area, expected vs. actual result, and reproducible steps.
+
+
+### Reporting a catalog-level issue
+
+This repository is a catalog rather than a single workbook. For a catalog issue, identify the affected category page and the tool entry. For a calculation defect in an individual tool, name that tool's repository so the report can be routed to the correct project.
+
+The current README describes browser-based products as using browser `localStorage`. That statement should be understood at the product level only where the individual tool implementation supports it; do not assume that every linked tool, embedded service, or future integration has identical data handling.
+
+## Privacy & Data Handling Notice
+
+Please use synthetic or adequately de-identified examples when reporting an issue. Do not publish raw workbooks, customer / supplier / employee / tenant / property / investor / production / payroll / transaction records, confidential commercial data, credentials, or screenshots containing sensitive information in public GitHub issues or discussions.
+
+For browser-based tools, do not infer data storage, transmission, or retention behavior from the user interface alone. Review the current implementation and applicable data-handling notes before testing with real business data. When uncertain, use synthetic data only.
+
 ## Privacy Policy
 
 ALL product is downloadable to your localstorage for personal use, do NOT reserve any user data
