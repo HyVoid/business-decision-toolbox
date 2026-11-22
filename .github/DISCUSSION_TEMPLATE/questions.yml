@@ -1,0 +1,67 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share the business task you are trying to complete. You do not need to know Excel formulas or technical terminology.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which tool is your question about?
+      description: Select the closest product. Choose the final option if it is another Theseus Workshop tool.
+      options:
+        - Construction Estimating — construction-estimating
+        - Amazon WBR & SQP Analytics — amazon-wbr-sqp-analytics-template
+        - AIA Construction Cost Tracker — aia-construction-cost-tracker-excel
+        - CRM to Shopify Marketing Attribution — crm-shopify-marketing-attribution-excel
+        - UK Residential Costing — uk-residential-costing-software
+        - Another Theseus Workshop tool
+    validations:
+      required: true
+
+  - type: dropdown
+    id: question_topic
+    attributes:
+      label: What is your question mainly about?
+      options:
+        - Getting started / workbook setup
+        - Preparing or importing source data
+        - Understanding a calculation or output
+        - Whether the tool fits my business workflow
+        - Excel version or compatibility
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: business_context
+    attributes:
+      label: What are you trying to do?
+      description: Describe the business task, decision, or workflow in plain language. Do not include confidential data.
+      placeholder: "For example: I need to compare weekly product profitability across several marketplaces."
+    validations:
+      required: true
+
+  - type: textarea
+    id: where_stuck
+    attributes:
+      label: Where are you getting stuck?
+      description: Include the step, input type, worksheet, or output that is unclear. You can leave this blank if you are exploring the tool.
+      placeholder: "I am unsure how to map these columns, or how to interpret this result..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_help
+    attributes:
+      label: What would help you move forward?
+      description: A short explanation is enough. You are not required to propose a technical solution.
+      placeholder: "A worked example, clarification, or a different workflow would help because..."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Privacy reminder:** Please use synthetic or anonymized examples. Do not attach customer records, full financial exports, supplier quotations, tender documents, passwords, API keys, or other confidential information.

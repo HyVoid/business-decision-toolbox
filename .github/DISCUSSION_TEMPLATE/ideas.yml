@@ -1,0 +1,78 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the recurring business problem or workflow gap. A practical example is more useful than a feature request without context.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which tool or product area does this relate to?
+      options:
+        - Construction Estimating — construction-estimating
+        - Amazon WBR & SQP Analytics — amazon-wbr-sqp-analytics-template
+        - AIA Construction Cost Tracker — aia-construction-cost-tracker-excel
+        - CRM to Shopify Marketing Attribution — crm-shopify-marketing-attribution-excel
+        - UK Residential Costing — uk-residential-costing-software
+        - Another Theseus Workshop tool
+        - A new tool / currently not covered
+    validations:
+      required: true
+
+  - type: dropdown
+    id: improvement_area
+    attributes:
+      label: What kind of improvement are you suggesting?
+      options:
+        - A new business workflow or use case
+        - A missing calculation or business rule
+        - New input data or import support
+        - A clearer report, dashboard, or output
+        - Easier setup or usability
+        - Documentation or worked examples
+        - Excel / browser compatibility
+        - A completely new decision-support tool
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_problem
+    attributes:
+      label: What is difficult or missing today?
+      description: Describe the current process, workaround, or decision that is not well supported.
+      placeholder: "Today we need to... The difficult part is..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired_outcome
+    attributes:
+      label: What would a useful outcome look like?
+      description: Explain what you would want to see, decide, or complete more easily.
+      placeholder: "It would help if the tool could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency_impact
+    attributes:
+      label: How often does this happen, and what is the impact?
+      description: Optional, but useful for understanding how common or costly the problem is.
+      placeholder: "For example: weekly; currently takes 2 hours and creates repeated reconciliation work."
+    validations:
+      required: false
+
+  - type: textarea
+    id: current_workaround
+    attributes:
+      label: What workaround do you use now?
+      description: Optional. Mention other software or manual steps only if relevant.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Privacy reminder:** Do not include customer-identifiable records, original financial exports, supplier quotes, tender documents, credentials, or commercially sensitive information. Use anonymized or synthetic examples.
